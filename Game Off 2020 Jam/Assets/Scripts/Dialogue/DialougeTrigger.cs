@@ -12,7 +12,7 @@ public class DialougeTrigger : MonoBehaviour
     {
         FindObjectOfType<DialougeManager>().StartDialouge(dialouge);
         DialougeBox.SetActive(true);
-        Button.SetActive(false);
+        //Button.SetActive(false);
         inConversation = true;
     } 
 }

@@ -42,6 +42,6 @@ public class DialougeManager : MonoBehaviour
     {
         dialougebox.SetActive(false);
         ExitButton.SetActive(false);
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+
     }
 }
