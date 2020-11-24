@@ -10,7 +10,7 @@ TextureImporter:
     second: Stone-with-moss
   - first:
       213: -2572830850036237998
-    second: Grass-Day
+    second: Grass-Day-1
   - first:
       213: -5065749450245138128
     second: Dirt-Day
@@ -20,6 +20,12 @@ TextureImporter:
   - first:
       213: 7443734744444602226
     second: Pine-Tree-Day
+  - first:
+      213: 7803902449428751434
+    second: Grass-Day-2
+  - first:
+      213: -422431339929223515
+    second: Grass-Day-3
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -63,7 +69,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 16
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -171,12 +177,12 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Grass-Day
+      name: Grass-Day-1
       rect:
         serializedVersion: 2
         x: 0
         y: 63
-        width: 48
+        width: 16
         height: 16
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -187,48 +193,6 @@ TextureImporter:
       bones: []
       spriteID: 2597c6c29f77b4cd0800000000000000
       internalID: -2572830850036237998
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Dirt-Day
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 31
-        width: 48
-        height: 15
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 0391209e6b7d2b9b0800000000000000
-      internalID: -5065749450245138128
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Sprite-Sheet-1_4
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 0
-        width: 48
-        height: 15
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e0cb637140bf689a0800000000000000
-      internalID: -6231017039432598514
       vertices: []
       indices: 
       edges: []
@@ -250,6 +214,48 @@ TextureImporter:
       bones: []
       spriteID: 2778adcbf457d4760800000000000000
       internalID: 7443734744444602226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass-Day-2
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 63
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4460005ee70d4c60800000000000000
+      internalID: 7803902449428751434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass-Day-3
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 63
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5aeb6893fe8332af0800000000000000
+      internalID: -422431339929223515
       vertices: []
       indices: 
       edges: []
