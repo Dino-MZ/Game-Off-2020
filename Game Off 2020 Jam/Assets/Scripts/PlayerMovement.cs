@@ -4,6 +4,9 @@ using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
 {
+    public GameObject PlayerObj;
+    public bool canMove = true;
+
     public Rigidbody2D rb;
     public SpriteRenderer pSprite;
 
@@ -34,10 +37,21 @@ public class PlayerMovement : MonoBehaviour
 
     void Update()
     {
-        moveHor = Input.GetAxisRaw("Horizontal");
-        jump = Input.GetKey(KeyCode.Space);
-        jumpUp = Input.GetKeyUp(KeyCode.Space);
-        jumpDown = Input.GetKeyDown(KeyCode.Space);
+        // If the player is dead they can't move!
+        if (PlayerObj.GetComponent<Player>().playerDead)
+        {
+            canMove = false;
+        }
+
+        else { canMove = true;  }
+
+        if (canMove)
+        {
+            moveHor = Input.GetAxisRaw("Horizontal");
+            jump = Input.GetKey(KeyCode.Space);
+            jumpUp = Input.GetKeyUp(KeyCode.Space);
+            jumpDown = Input.GetKeyDown(KeyCode.Space);
+        }
     }
 
     void FixedUpdate()

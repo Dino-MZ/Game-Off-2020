@@ -7,6 +7,10 @@ TagManager:
   - CoachJoe
   - Ground
   - Death
+  - CP1
+  - CP0
+  - CP2
+  - CP3
   layers:
   - Default
   - TransparentFX
